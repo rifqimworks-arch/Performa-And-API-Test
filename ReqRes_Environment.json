@@ -1,0 +1,49 @@
+{
+  "id": "reqres-environment",
+  "name": "ReqRes API Environment",
+  "values": [
+    {
+      "key": "base_url",
+      "value": "https://reqres.in",
+      "type": "default",
+      "enabled": true,
+      "description": "Base URL for reqres.in API"
+    },
+    {
+      "key": "created_user_id",
+      "value": "",
+      "type": "default",
+      "enabled": true,
+      "description": "Auto-populated from POST Create User response (chaining)"
+    },
+    {
+      "key": "created_user_name",
+      "value": "",
+      "type": "default",
+      "enabled": true,
+      "description": "Auto-populated from POST Create User response"
+    },
+    {
+      "key": "updated_user_name",
+      "value": "",
+      "type": "default",
+      "enabled": true,
+      "description": "Auto-populated from PUT Update User response"
+    },
+    {
+      "key": "total_users",
+      "value": "",
+      "type": "default",
+      "enabled": true,
+      "description": "Auto-populated from GET List Users response"
+    },
+    {
+      "key": "per_page",
+      "value": "",
+      "type": "default",
+      "enabled": true,
+      "description": "Auto-populated from GET List Users response"
+    }
+  ],
+  "_postman_variable_scope": "environment"
+}
